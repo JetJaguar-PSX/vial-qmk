@@ -16,8 +16,8 @@
 #define THIS_DEVICE_COLS 9
 
 // // wiring of each half
-#define MATRIX_ROW_PINS { 21, 20, 19, 18, 15, 14, 16 }
-#define MATRIX_COL_PINS { 1, 0, 2, 3, 4, 5, 6, 7, 8 }
+#define MATRIX_ROW_PINS { 20, 19, 18, 17, 16, 15, 14 }
+#define MATRIX_COL_PINS { 1, 2, 5, 6, 7, 8, 9, 10, 11 }
 
 // #define IS_LEFT_HAND  true
 #define BMP_DEFAULT_MODE SINGLE
