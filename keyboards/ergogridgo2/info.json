@@ -1,32 +1,35 @@
 {
     "manufacturer": "Shiitake",
-    "keyboard_name": "ergogridgo",
+    "keyboard_name": "ergogridgo2",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x4A58",
+        "pid": "0x4A59",
         "vid": "0x504B"
     },
-    "matrix_pins":{
+    "matrix_pins": {
         "cols": [
-            1,
-            0,
-            2,
-            3,
-            4,
-            5,
-            6,
             7,
-            8
+            8,
+            9,
+            10,
+            11,
+            12
         ],
         "rows":[
-            21,
             20,
             19,
             18,
+            17,
+            16,
             15,
             14,
-            16
+            1,
+            2
         ]
+    },
+    "matrix_size": {
+        "cols": 6,
+        "rows": 9
     },
     "layouts": {
         "LAYOUT": {
@@ -38,9 +41,9 @@
                 {"matrix":[0,4], "x":4, "y":0}, 
                 {"matrix":[0,5], "x":5, "y":0},
 
-                {"matrix":[0,6], "x":7, "y":0}, 
-                {"matrix":[0,7], "x":8, "y":0}, 
-                {"matrix":[0,8], "x":9, "y":0},
+                {"matrix":[7,0], "x":7, "y":0}, 
+                {"matrix":[7,1], "x":8, "y":0}, 
+                {"matrix":[7,2], "x":9, "y":0},
 
                 {"matrix":[6,0], "x":11, "y":0}, 
                 {"matrix":[6,1], "x":12, "y":0}, 
@@ -57,10 +60,10 @@
                 {"matrix":[1,4], "x":4, "y":1}, 
                 {"matrix":[1,5], "x":5, "y":1},
 
-                {"matrix":[1,6], "x":7, "y":1}, 
-                {"matrix":[1,7], "x":8, "y":1}, 
-                {"matrix":[1,8], "x":9, "y":1}, 
-                
+                {"matrix":[8,0], "x":7, "y":1}, 
+                {"matrix":[8,1], "x":8, "y":1}, 
+                {"matrix":[8,2], "x":9, "y":1}, 
+            
                 {"matrix":[5,0], "x":11, "y":1}, 
                 {"matrix":[5,1], "x":12, "y":1}, 
                 {"matrix":[5,2], "x":13, "y":1}, 
@@ -76,10 +79,10 @@
                 {"matrix":[2,4], "x":4, "y":2}, 
                 {"matrix":[2,5], "x":5, "y":2}, 
 
-                {"matrix":[2,6], "x":7, "y":2}, 
-                {"matrix":[2,7], "x":8, "y":2}, 
-                {"matrix":[2,8], "x":9, "y":2}, 
-                
+                {"matrix":[8,3], "x":7, "y":2}, 
+                {"matrix":[8,4], "x":8, "y":2}, 
+                {"matrix":[8,5], "x":9, "y":2}, 
+            
                 {"matrix":[4,0], "x":11, "y":2}, 
                 {"matrix":[4,1], "x":12, "y":2}, 
                 {"matrix":[4,2], "x":13, "y":2}, 
@@ -92,14 +95,32 @@
                 {"matrix":[3,4], "x":4, "y":3}, 
                 {"matrix":[3,5], "x":5, "y":3}, 
 
-                {"matrix":[3,6], "x":7, "y":3}, 
-                {"matrix":[3,7], "x":8, "y":3}, 
-                {"matrix":[3,8], "x":9, "y":3}, 
-                
+                {"matrix":[7,3], "x":7, "y":3}, 
+                {"matrix":[7,4], "x":8, "y":3}, 
+                {"matrix":[7,5], "x":9, "y":3}, 
+            
                 {"matrix":[3,0], "x":11, "y":3}, 
                 {"matrix":[3,1], "x":12, "y":3}, 
                 {"matrix":[3,2], "x":13, "y":3}
             ]
         }
+    },
+    "rgblight": {
+        "led_count": 127,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        }
+    },
+    "ws2812": {
+        "pin": 255
     }
 }
